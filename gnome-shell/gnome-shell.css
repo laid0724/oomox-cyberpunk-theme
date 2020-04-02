@@ -2535,9 +2535,14 @@ StScrollBar StButton#hhandle:active {
   color: white;
 }
 
+
+/* LANGUAGE INPUT SOURCE POPUP BOX */
+
 .candidate-popup-content {
   padding: 8px;
   spacing: 0;
+  background-color: #000B1E;
+  border-radius: 5px;
 }
 
 .candidate-index {
@@ -2550,6 +2555,7 @@ StScrollBar StButton#hhandle:active {
   min-height: 28px;
   padding: 0 8px;
   border-radius: 5px;
+  background-color: #000B1E;
 }
 
 .candidate-box:hover {
@@ -2565,7 +2571,7 @@ StScrollBar StButton#hhandle:active {
 }
 
 .candidate-box:selected {
-  background-color: rgba(236, 6, 174, 0.32);
+  background-color: rgba(236, 6, 174, 0.8);
   color: #23D5D3;
   transition-duration: 0ms;
 }
